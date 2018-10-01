@@ -2,9 +2,9 @@ import { Component, ViewChild, ElementRef, AfterViewInit, ChangeDetectorRef, OnI
 import * as QRCode from 'qrcodejs2';
 
 @Component({
-    selector: 'sw-template-generator',
-    templateUrl: './template-generator.component.html',
-    styleUrls: ['./template-generator.component.scss']
+  selector: 'sw-template-generator',
+  templateUrl: './template-generator.component.html',
+  styleUrls: ['./template-generator.component.scss']
 })
 export class TemplateGenerator implements OnInit {
   qrcode:any;
